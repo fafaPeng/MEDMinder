@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Account Preferences -->
+    <androidx.preference.PreferenceCategory
+        app:iconSpaceReserved="false"
+        android:title="@string/information_title">
+
+        <androidx.preference.PreferenceScreen
+            app:iconSpaceReserved="false"
+            android:title="@string/user_profile"
+            android:summary="@string/user_profile_subtext">
+            <intent
+                android:action="com.example.medminder.UserProfileActivity" />
+        </androidx.preference.PreferenceScreen>
+
+    </androidx.preference.PreferenceCategory>
+    <!-- Additional Settings -->
+    <androidx.preference.PreferenceCategory
+        app:iconSpaceReserved="false"
+        android:title="@string/additional_settings_title">
+
+        <androidx.preference.EditTextPreference
+            app:iconSpaceReserved="false"
+            android:key="comment_preference"
+            android:inputType="text"
+            android:title="@string/user_sticky_note"
+            android:summary="@string/user_sticky_note_subtext" />
+    </androidx.preference.PreferenceCategory>
+    <!-- Misc. -->
+    <androidx.preference.PreferenceCategory
+        app:iconSpaceReserved="false"
+        android:title="@string/useful_links_title">
+
+        <androidx.preference.PreferenceScreen
+            app:iconSpaceReserved="false"
+            android:title="@string/user_useful_link"
+            android:summary="@string/user_useful_link_subtext">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://www2.gov.bc.ca/gov/content/family-social-supports/seniors/health-safety/disease-and-injury-care-and-prevention/dementia-information"/>
+        </androidx.preference.PreferenceScreen>
+
+    </androidx.preference.PreferenceCategory>
+
+    <!-- Misc. -->
+    <androidx.preference.PreferenceCategory
+        app:iconSpaceReserved="false"
+        android:title="Helpline">
+
+        <androidx.preference.PreferenceScreen
+            app:iconSpaceReserved="false"
+            android:title="Alzheimer Helpline"
+            android:summary="If you have questions about Alzheimer's disease or other dementias, call the Alzheimer Society of B.C.'s First Link® Dementia Helpline for information and support (toll-free): English: 1-800-936-6033 (Monday to Friday, 9 a.m. to 8 p.m.)">
+            <intent android:action="android.intent.action.DIAL"
+                android:data="tel:1-800-936-6033"/>
+        </androidx.preference.PreferenceScreen>
+
+
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        app:iconSpaceReserved="false"
+        android:title="Weekly Medication Reminder Streak">
+
+        <androidx.preference.PreferenceScreen
+            app:iconSpaceReserved="false"
+            android:title="Click here to view your streak">
+            <intent
+                android:action="com.example.medminder.CustomStreakDialog" />
+        </androidx.preference.PreferenceScreen>
+
+
+    </androidx.preference.PreferenceCategory>
+
+
+</PreferenceScreen>

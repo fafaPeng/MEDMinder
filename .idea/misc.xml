@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_help.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2601317122593718" />
+        <entry key="app/src/main/res/layout/activity_manual_entry.xml" value="0.2785123445093632" />
+        <entry key="app/src/main/res/layout/activity_reminder_entry.xml" value="0.3636604933533818" />
+        <entry key="app/src/main/res/layout/activity_user_profile.xml" value="0.3015625" />
+        <entry key="app/src/main/res/layout/fragment_history.xml" value="0.25962512664640325" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.2601317122593718" />
+        <entry key="app/src/main/res/layout/fragment_medication.xml" value="0.2601317122593718" />
+        <entry key="app/src/main/res/layout/fragment_today.xml" value="0.3015625" />
+        <entry key="app/src/main/res/layout/manual_list_items.xml" value="0.3015625" />
+        <entry key="app/src/main/res/layout/reminder_list_items.xml" value="0.40806159420289856" />
+        <entry key="app/src/main/res/xml/preference.xml" value="0.23295062351971865" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

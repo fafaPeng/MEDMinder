@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/manual_entry_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <ListView
+        android:id="@+id/manual_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/manual_button_group"
+        android:layout_alignParentTop="true" />
+
+    <!-- Save and Cancel Bottom Buttons -->
+    <LinearLayout
+        android:id="@+id/manual_button_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/set_alarm"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSetAlarm"
+            android:text="Set Alarm"/>
+
+        <Button
+            android:id="@+id/manual_save_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:onClick="onSaveClick"
+            android:text="Save Entry"/>
+
+
+        <Button
+            android:id="@+id/manual_cancel_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:onClick="onCancelClick"
+            android:text="Cancel Entry"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

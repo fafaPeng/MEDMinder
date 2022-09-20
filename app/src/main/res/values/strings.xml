@@ -1,0 +1,96 @@
+<resources>
+
+    // App name
+    <string name="app_name">Medminder</string>
+
+    // Tabs
+    <string name="tab_medication">Medication</string>
+    <string name="tab_today">Today</string>
+    <string name="tab_information">Information</string>
+
+    // Buttons
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+
+    // Preferences tab
+    // _title are the titles for the grouping
+    // user_ are the individual item titles
+    // _subtext are the subtext for the titles
+    <string name="information_title">User information</string>
+    <string name="user_profile">Name, age, etc</string>
+    <string name="user_profile_subtext">User Profile</string>
+    <string name="additional_settings_title">Additional Settings</string>
+    <string name="user_sticky_note">Sticky Note</string>
+    <string name="user_sticky_note_subtext">Please enter your sticky note</string>
+    <string name="useful_links_title">Useful Links</string>
+    <string name="user_useful_link">Dementia Information</string>
+    <string name="user_useful_link_subtext">https://www2.gov.bc.ca/gov/content/family-social-supports/seniors/health-safety/disease-and-injury-care-and-prevention/dementia-information</string>
+    // User Profile
+    // _title are the titles for the item
+    // _hunt are the hints for each item
+    <string name="user_name_title">Full Name</string>
+    <string name="user_name_hint">Enter Your Name</string>
+    <string name="user_age_title">Age</string>
+    <string name="user_age_hint">Enter Your Age</string>
+    <string name="user_phone_title">Phone Number</string>
+    <string name="user_phone_hint">Enter Your Phone Number</string>
+    <string name="user_gender_title">Gender</string>
+    <string name="user_gender_female">Female</string>
+    <string name="user_gender_male">Male</string>
+    <string name="user_address_title">Address</string>
+    <string name="user_address_hint">Enter Your Address</string>
+    <string name="user_happy_title">Happiness</string>
+    <string name="user_happy_hint">What makes you happy?</string>
+
+    // Medication tab
+    <string name="medication_input_type">Reminder Type</string>
+    <string name="medication_medication_type">Medication Type</string>
+    <string name="start_button">Create a reminder</string>
+
+    <!-- Spinner Options -->
+    <string-array name="medication_input_spinner_list">
+        <item>Medication</item>
+        <item>General</item>
+        <item>Special Events</item>
+    </string-array>
+    <string-array name="medication_type_spinner_list">
+        <item>Tablet</item>
+        <item>Capsule</item>
+        <item>Liquid</item>
+        <item>Drops</item>
+        <item>Injection</item>
+    </string-array>
+
+    // Medication entries
+    // medication_entry_
+    <!--Text Fragment Titles-->
+    <string name="medication_entry_name">Medication Name</string>
+    <string name="medication_entry_quantity">Medication Quantity</string>
+    <string name="medication_entry_time">Date and Time</string>
+    <string name="medication_special_notes">Special Notes</string>
+    <string name="medication_notes_hint">Write Your Notes Here.</string>
+    <string name="medication_name_hint">Write The Medication Name Here.</string>
+    <string name="medication_quantity_hint">Write The Quantity Here.</string>
+
+    //
+    <string name="ok_button">OK</string>
+
+    //
+    <string name="pref_unit">Unit Preference</string>
+    <string name="pref_unit_subtext">Select the units</string>
+    <string name="unit_preference">unit_preference</string>
+    <string name="unit_km">Kilometers</string>
+    <string name="unit_miles">Miles</string>
+
+    //
+    <string name="manual_cancel_msg">Entry Discarded</string>
+
+    // Help Page
+    <string name="help_page_title">Help Title</string>
+    <string name="help_page_subtitle">Help Page</string>
+    <string name="help_page_content">Help Content</string>
+
+    // Streak
+    <string name="weekly_streak_title">Weekly Medication Reminder Streak</string>
+
+</resources>

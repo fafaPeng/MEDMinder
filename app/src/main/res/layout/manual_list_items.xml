@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--View for each input row in manual entry activity-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/manual_list_items"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:textSize="25sp"
+    android:padding="15dp">
+</TextView>

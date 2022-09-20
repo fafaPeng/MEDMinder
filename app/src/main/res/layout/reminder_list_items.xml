@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reminder_item_container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp">
+
+<!--Top line input, activity, date time-->
+    <TextView
+        android:id="@+id/history_list_first_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="17sp" />
+
+<!--Bottom line with distance, duration-->
+    <TextView
+        android:id="@+id/history_list_second_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
